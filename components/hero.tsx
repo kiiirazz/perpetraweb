@@ -1,9 +1,10 @@
 import { ArrowRight } from "lucide-react";
 import { FadeIn } from "./motion";
+import { HeroAnimation } from "./hero-animation";
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
+    <section className="relative min-h-[100svh] flex flex-col items-center justify-center overflow-hidden pt-20 pb-8">
       {/* ── Background layers ── */}
       <div className="absolute inset-0 bg-[#050A08]" />
 
@@ -80,6 +81,9 @@ export function Hero() {
             </a>
           </div>
         </FadeIn>
+
+        {/* Animated trading chart */}
+        <HeroAnimation />
       </div>
 
       {/* Bottom fade */}
