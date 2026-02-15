@@ -67,14 +67,14 @@ export function Hero() {
         <FadeIn delay={0.3}>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://perpetra.xyz"
+              href="https://app.perpetradex.com"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold text-base rounded-xl transition-all duration-300 hover:shadow-[0_0_30px_rgba(52,211,153,0.25)]"
             >
               Launch App
               <ArrowRight size={18} />
             </a>
             <a
-              href="https://docs.perpetra.xyz"
+              href="https://docs.perpetradex.com"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 border border-white/10 hover:border-white/20 hover:bg-white/[0.03] text-white font-medium text-base rounded-xl transition-all duration-300"
             >
               Read Docs

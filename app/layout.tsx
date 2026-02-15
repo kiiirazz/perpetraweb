@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: "Perpetra — The First Perpetual DEX on MegaETH",
     description:
       "Trade perpetual futures with up to 100x leverage, deep liquidity, and full self-custody on MegaETH.",
-    url: "https://perpetra.xyz",
+    url: "https://perpetradex.com",
     siteName: "Perpetra",
     type: "website",
     locale: "en_US",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     creator: "@perpetra",
   },
   robots: { index: true, follow: true },
-  metadataBase: new URL("https://perpetra.xyz"),
+  metadataBase: new URL("https://perpetradex.com"),
 };
 
 export default function RootLayout({

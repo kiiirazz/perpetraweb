@@ -53,13 +53,13 @@ export function Header() {
         {/* Desktop actions */}
         <div className="hidden md:flex items-center gap-5">
           <a
-            href="https://docs.perpetra.xyz"
+            href="https://docs.perpetradex.com"
             className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
           >
             Docs
           </a>
           <a
-            href="https://perpetra.xyz"
+            href="https://app.perpetradex.com"
             className="group inline-flex items-center gap-1.5 px-5 py-2 bg-emerald-500 hover:bg-emerald-400 text-black font-semibold text-sm rounded-lg transition-all duration-200 hover:shadow-[0_0_24px_rgba(52,211,153,0.25)]"
           >
             Launch App
@@ -98,13 +98,13 @@ export function Header() {
             </a>
           ))}
           <a
-            href="https://docs.perpetra.xyz"
+            href="https://docs.perpetradex.com"
             className="text-sm text-gray-400 hover:text-white transition-colors"
           >
             Docs
           </a>
           <a
-            href="https://perpetra.xyz"
+            href="https://app.perpetradex.com"
             className="inline-flex items-center justify-center gap-1.5 px-5 py-2.5 bg-emerald-500 text-black font-semibold text-sm rounded-lg"
           >
             Launch App
